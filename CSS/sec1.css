@@ -1,0 +1,22 @@
+.sec1 {
+    background-image: url('/images/Rectangle\ 2.png');
+    height: 716px;
+}
+
+.sep1_para1 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 65px;
+    letter-spacing: -0.005em;
+    text-transform: capitalize;
+    color: #444444;
+}
+
+.sep1_para2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 65px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #00BCD5;
+}
