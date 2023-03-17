@@ -1,12 +1,9 @@
 .sec1 {
     background-image: url('/images/Rectangle\ 2.png');
-    height: 650px;
+    height: 750px;
 }
 
-.sec1child1 {
-    background-image: url('/images/Rectangle\ 3.png');
-    height: 100%;
-}
+/* .sec1child1 {} */
 
 .sep1_para1 {
     font-weight: 300;
@@ -85,22 +82,28 @@
 .sec1child1A {
     position: relative;
     float: left;
+    background-image: url('/images/Rectangle\ 3.png');
+    height: 100%;
 }
 
 .sec1child1B {
     position: relative;
-    float: right;
+    /* float: right; */
 }
 
 .sec1child1B-i {
     position: absolute;
     left: 605px;
     top: 100px;
-    height: 550px;
-    width: 730px;
+    /* height: 550px;
+    width: 730px; */
 }
 
 .drFirst {
-    height: 100%;
+    height: 80%;
     width: auto;
+}
+
+.sec1child1 {
+    float: left;
 }
