@@ -1,9 +1,16 @@
 .sec1 {
     background-image: url('/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 750px;
 }
 
-/* .sec1child1 {} */
+.sec1_2bg {
+    background-image: url('/images/Rectangle\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
 
 .sep1_para1 {
     font-weight: 300;
@@ -82,7 +89,7 @@
 .sec1child1A {
     position: relative;
     float: left;
-    background-image: url('/images/Rectangle\ 3.png');
+
     height: 100%;
 }
 
@@ -93,8 +100,8 @@
 
 .sec1child1B-i {
     position: absolute;
-    left: 605px;
-    top: 100px;
+    left: 345px;
+    top: 119px;
     /* height: 550px;
     width: 730px; */
 }
@@ -107,3 +114,16 @@
 .sec1child1 {
     float: left;
 }
+
+@media (max-width:767px) {
+    .sec1_2bg {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:1200px) {}
